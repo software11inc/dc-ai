@@ -6,6 +6,7 @@ import { CallToAction } from "@/components/ui/cta-3";
 import TimelineSection from "@/components/blocks/timeline-section";
 import GridFeatureSection from "@/components/blocks/grid-feature-section";
 import FooterSection from "@/components/blocks/footer-section";
+import FeatureCarouselSection from "@/components/blocks/feature-carousel-section";
 
 export default function Home() {
   return (
@@ -33,7 +34,12 @@ export default function Home() {
         />
       </section>
 
-      {/* Section 3: Timeline (two-column) */}
+      {/* Section 3: Plugin — capture + execution */}
+      <section className="relative z-10">
+        <FeatureCarouselSection />
+      </section>
+
+      {/* Section 4: Timeline (two-column) */}
       <section className="relative z-10">
         <TimelineSection />
       </section>
